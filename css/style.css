@@ -1,0 +1,90 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+@font-face { font-family: Consolas; src: url('fonts/consola.ttf'); } 
+.consolas { font-family: Consolas;}
+
+code{
+  cursor: none;
+    background-color: #4D6A6D;
+    color: #D4F2DB;
+    font-size: x-large;
+}
+
+#header{
+    cursor: none;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/backgroundimage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ nav ul li{
+  cursor: none;
+  display: inline-block;
+  list-style: none;
+  margin: 10px 10px;
+ }
+
+ ul li{
+  cursor: none;
+  padding-top: 11.5px;
+ }
+
+ ul li:hover{
+    transform: scale(1.2);
+    transition: .5s;
+ }
+
+
+ nav ul li a{
+  cursor: none;
+  color: #abb7b7 !important;
+  text-decoration: none !important;
+  font-size: large !important;
+  position: relative !important;
+ }
+
+a.customItem:hover{
+    transform: scale(2) !important;
+}
+
+.active{
+  cursor: none;
+  background-color: #4D6A6D;
+  color: #D4F2DB !important;
+  size-adjust: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.oomph{
+  color: #f08a7c !important;
+  font-size: 40px;
+}
+
+#header-text{
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 30px;
+  color: #D4F2DB;
+}
+
+.navbar-brand{
+  cursor: none;
+}
+
+
+
+img.profile{
+  cursor: none;
+  flex-wrap: wrap;
+  border: 2px solid #4D6A6D;
+  border-radius: 5px;
+  margin-top: -17%;
+  margin-left: 65%;
+  max-width: 22%;
+  height: auto;
+}
