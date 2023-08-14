@@ -14,7 +14,7 @@ code{
     cursor: none;
     width: 100%;
     height: 100vh;
-    background-image: url(../images/backgroundimage.jpg);
+    background-image: url(../images/new.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -72,32 +72,36 @@ a.customItem:hover{
   color: #D4F2DB;
 }
 
-
-
-
 .navbar-brand{
   cursor: none;
 }
 
 
-
 img.profile{
-  cursor: none;
+  position: absolute;
   float: right;
   margin-top: -7%;
-  margin-right: 10%;
-  flex-wrap: wrap;
+  margin-left: 67%;
   border: 2px solid #4D6A6D;
   border-radius: 5px;
   max-width: 22%;
   height: auto;
 }
 
-.hoverable-text {
-  font-size: 30px; /* Initial font size */
-  transition: font-size 0.3s; /* Smooth transition */
+#homeContent{
+  background-image: url(../images/pxfuel.jpg);
+  border-top: 1px solid #4D6A6D;
+  cursor: none;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-.hoverable-text:hover {
-  font-size: 35px; /* Larger font size on hover */
+h3{
+  color: #D4F2DB;
+}
+
+p{
+  color: aliceblue;
 }
