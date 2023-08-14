@@ -72,6 +72,9 @@ a.customItem:hover{
   color: #D4F2DB;
 }
 
+
+
+
 .navbar-brand{
   cursor: none;
 }
@@ -81,7 +84,7 @@ a.customItem:hover{
 img.profile{
   cursor: none;
   float: right;
-  margin-top: -14%;
+  margin-top: -7%;
   margin-right: 10%;
   flex-wrap: wrap;
   border: 2px solid #4D6A6D;
