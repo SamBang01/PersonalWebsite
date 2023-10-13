@@ -92,10 +92,15 @@ img.profile{
   background-image: url(../images/pxfuel.jpg);
   border-top: 1px solid #4D6A6D;
   cursor: none;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+   /* Set a specific height */
+   height: 500px; 
+   border: 1px solid #4D6A6D;
+   border-radius: 5px;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 h3{
@@ -103,5 +108,60 @@ h3{
 }
 
 p{
-  color: aliceblue;
+  color: rgb(25, 33, 40);
+}
+
+/* Main paragraph style */
+.intro {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #d6f7ee;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #4D6A6D;
+  border-radius: 5px;
+  background-color: #43585a;
+}
+
+/* Styling for important words */
+.highlight {
+  font-weight: bold;
+  color: #f08a7c !important;
+}
+
+/* Styling for the call to action (last sentence) */
+.call-to-action {
+  display: block;
+  margin-top: 10px;
+  color: #e0e0e0;
+  text-decoration: underline;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.unset{
+  all: unset;
+  text-decoration: underline;
+}
+
+.unset:hover{
+  all:unset;
+  text-decoration: underline;
+}
+
+.unset:after{
+  all:unset;
+  text-decoration: underline;
+}
+
+.header-interests {
+    font-size: 2em;          /* Make the font size bigger */
+    color: #2A7BF3;         /* A shade of blue color for contrast */
+    border-bottom: 2px solid #2A7BF3;  /* A border at the bottom for emphasis */
+    display: inline-block;  /* Helps in applying border to text width only */
+    padding-bottom: 10px;   /* Some spacing to separate text from border */
+    margin-bottom: 30px;    /* Extra spacing from content below */
+    font-weight: bold;      /* Making the font bold */
 }
